@@ -48,6 +48,9 @@ body {
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
 }
 
 .skip-link {
@@ -92,7 +95,6 @@ body {
 }
 
 .hero {
-  min-height: calc(100dvh - 120px);
   display: grid;
   place-items: center;
   padding: 40px 20px;
